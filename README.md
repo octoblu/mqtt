@@ -3,7 +3,7 @@ MQTT - Skynet MQTT Server
 
 MQTT (MQ Telemetry Transport) is a lightweight publish/subscribe messaging protocol. It is useful for use with low power sensors, but is applicable to many scenarios.  For more complete information on MQTT, see http://mqtt.org/.
 
-Skynet's MQTT server is based on the following project: https://github.com/mcollina/mosca
+Skynet's MQTT server is based on the Mosca project (https://github.com/mcollina/mosca) which supports the following persistent data stores: AMQP, Redis, MongoDB, ZeroMQ or just MQTT.
 
 Quality of Service
 ------------------
