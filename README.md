@@ -1,5 +1,5 @@
-MQTT - Skynet MQTT Server
-=========================
+Skynet's MQTT Server
+====================
 
 MQTT (MQ Telemetry Transport) is a lightweight publish/subscribe messaging protocol. It is useful for use with low power sensors, but is applicable to many scenarios.  For more complete information on MQTT, see http://mqtt.org/.
 
