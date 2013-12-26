@@ -1,0 +1,20 @@
+{
+  "name": "mqtt",
+  "description": "Skynet MQTT Server",
+  "version": "0.0.1",
+  "author": "Chris Matthieu",
+  "private": true,
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "mosca": "*"
+  },
+  "subdomain": "mqtt",
+  "domains": [
+    "mqtt.skynet.im"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  }
+}
