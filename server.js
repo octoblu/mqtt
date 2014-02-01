@@ -8,9 +8,14 @@ var dataStore = {
   mongo: {}
 };
 
+var dataLogger = {
+    level: 'debug'
+};
+
 var settings = {
   port: config.port,
-  backend: dataStore
+  backend: dataStore,
+  logger: dataLogger
 };
 
 process.on("uncaughtException", function(error) {
